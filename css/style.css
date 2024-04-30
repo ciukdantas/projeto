@@ -1,0 +1,52 @@
+header {
+    background-color: blue;
+    font-family: Roboto,sans-serif
+}
+
+header{
+    background-color: #8697a6;
+    padding: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+nav{
+    background-color: #BFCDD9;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 25px;
+}
+
+nav ul li{
+display: inline;
+margin: 50px;
+}
+
+nav ul li{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #8697A6;
+}
+
+header ing {
+    height: 150px;
+    border-radius: 50%;
+}
+section{
+    margin: 50px;
+    padding: 50px;
+    color:#515F69;
+    border-radius: 25PX;
+    background-color: #BFCDD9;
+}
+footer{
+    padding: 10px;
+}
+@media only screen and(max-widht:600px) {
+    nav ul li{
+        margin:15px;
+    }
+}
